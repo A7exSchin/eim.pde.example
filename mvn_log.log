@@ -1,0 +1,332 @@
+Apache Maven 3.9.4 (dfbb324ad4a7c8fb0bf182e6d91b0ae20e3d2dd9)
+Maven home: C:\Users\aschi\AppData\Local\Programs\WingetUI\choco-cli\lib\maven\apache-maven-3.9.4
+Java version: 17.0.6, vendor: Eclipse Adoptium, runtime: C:\Users\aschi\.klibio\java\ee\JAVA17
+Default locale: en_US, platform encoding: UTF-8
+OS name: "windows 11", version: "10.0", arch: "amd64", family: "windows"
+[DEBUG] Reading global settings from C:\Users\aschi\AppData\Local\Programs\WingetUI\choco-cli\lib\maven\apache-maven-3.9.4\conf\settings.xml
+[DEBUG] Reading user settings from D:\eclipseWorkspaces\pdeWorkspace\.mvn\settings.xml
+[DEBUG] Created adapter factory; available factories [file-lock, rwlock-local, semaphore-local, noop]; available name mappers [discriminating, file-gav, file-hgav, file-static, gav, static]
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for C:\Users\aschi\.m2\repository
+[DEBUG] Creating adapter using nameMapper 'gav' and factory 'rwlock-local'
+[DEBUG] Could not find metadata org.eclipse.platform:org.eclipse.equinox.common/maven-metadata.xml in local (C:\Users\aschi\.m2\repository)
+[DEBUG] Skipped remote request for org.eclipse.platform:org.eclipse.equinox.common/maven-metadata.xml, locally cached metadata up-to-date
+[DEBUG] Could not find metadata org.eclipse.platform:org.eclipse.equinox.registry/maven-metadata.xml in local (C:\Users\aschi\.m2\repository)
+[DEBUG] Skipped remote request for org.eclipse.platform:org.eclipse.equinox.registry/maven-metadata.xml, locally cached metadata up-to-date
+[DEBUG] Could not find metadata org.eclipse.platform:org.eclipse.equinox.common/maven-metadata.xml in local (C:\Users\aschi\.m2\repository)
+[DEBUG] Skipped remote request for org.eclipse.platform:org.eclipse.equinox.common/maven-metadata.xml, locally cached metadata up-to-date
+[DEBUG] Could not find metadata org.eclipse.platform:org.eclipse.equinox.common/maven-metadata.xml in local (C:\Users\aschi\.m2\repository)
+[DEBUG] Skipped remote request for org.eclipse.platform:org.eclipse.equinox.common/maven-metadata.xml, locally cached metadata up-to-date
+[DEBUG] Could not find metadata org.eclipse.platform:org.eclipse.equinox.common/maven-metadata.xml in local (C:\Users\aschi\.m2\repository)
+[DEBUG] Skipped remote request for org.eclipse.platform:org.eclipse.equinox.common/maven-metadata.xml, locally cached metadata up-to-date
+[DEBUG] Could not find metadata org.eclipse.platform:org.eclipse.equinox.common/maven-metadata.xml in local (C:\Users\aschi\.m2\repository)
+[DEBUG] Skipped remote request for org.eclipse.platform:org.eclipse.equinox.common/maven-metadata.xml, locally cached metadata up-to-date
+[DEBUG] Could not find metadata org.eclipse.platform:org.eclipse.equinox.common/maven-metadata.xml in local (C:\Users\aschi\.m2\repository)
+[DEBUG] Skipped remote request for org.eclipse.platform:org.eclipse.equinox.common/maven-metadata.xml, locally cached metadata up-to-date
+[DEBUG] Could not find metadata org.eclipse.platform:org.eclipse.equinox.registry/maven-metadata.xml in local (C:\Users\aschi\.m2\repository)
+[DEBUG] Skipped remote request for org.eclipse.platform:org.eclipse.equinox.registry/maven-metadata.xml, locally cached metadata up-to-date
+[DEBUG] Could not find metadata org.eclipse.platform:org.eclipse.core.jobs/maven-metadata.xml in local (C:\Users\aschi\.m2\repository)
+[DEBUG] Skipped remote request for org.eclipse.platform:org.eclipse.core.jobs/maven-metadata.xml, locally cached metadata up-to-date
+[DEBUG] Could not find metadata org.eclipse.platform:org.eclipse.equinox.common/maven-metadata.xml in local (C:\Users\aschi\.m2\repository)
+[DEBUG] Skipped remote request for org.eclipse.platform:org.eclipse.equinox.common/maven-metadata.xml, locally cached metadata up-to-date
+[DEBUG] Could not find metadata org.eclipse.platform:org.eclipse.equinox.preferences/maven-metadata.xml in local (C:\Users\aschi\.m2\repository)
+[DEBUG] Skipped remote request for org.eclipse.platform:org.eclipse.equinox.preferences/maven-metadata.xml, locally cached metadata up-to-date
+[DEBUG] Could not find metadata org.osgi:org.osgi.service.prefs/maven-metadata.xml in local (C:\Users\aschi\.m2\repository)
+[DEBUG] Skipped remote request for org.osgi:org.osgi.service.prefs/maven-metadata.xml, locally cached metadata up-to-date
+[DEBUG] Could not find metadata org.osgi:org.osgi.service.prefs/maven-metadata.xml in local (C:\Users\aschi\.m2\repository)
+[DEBUG] Skipped remote request for org.osgi:org.osgi.service.prefs/maven-metadata.xml, locally cached metadata up-to-date
+[DEBUG] Could not find metadata org.bouncycastle:bcpg-jdk18on/maven-metadata.xml in local (C:\Users\aschi\.m2\repository)
+[DEBUG] Skipped remote request for org.bouncycastle:bcpg-jdk18on/maven-metadata.xml, locally cached metadata up-to-date
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for ow2-snapshot (http://repository.ow2.org/nexus/content/repositories/snapshots).
+[DEBUG] Could not find metadata org.eclipse.platform:org.eclipse.equinox.common/maven-metadata.xml in local (C:\Users\aschi\.m2\repository)
+[DEBUG] Skipped remote request for org.eclipse.platform:org.eclipse.equinox.common/maven-metadata.xml, locally cached metadata up-to-date
+[DEBUG] Could not find metadata org.eclipse.platform:org.eclipse.equinox.common/maven-metadata.xml in local (C:\Users\aschi\.m2\repository)
+[DEBUG] Skipped remote request for org.eclipse.platform:org.eclipse.equinox.common/maven-metadata.xml, locally cached metadata up-to-date
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=5736100, ConflictMarker.markTime=1457900, ConflictMarker.nodeCount=3206, ConflictIdSorter.graphTime=2811800, ConflictIdSorter.topsortTime=452800, ConflictIdSorter.conflictIdCount=69, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=16235901, ConflictResolver.conflictItemCount=457, DfDependencyCollector.collectTime=666255700, DfDependencyCollector.transformTime=28749600}
+[DEBUG] org.eclipse.tycho:tycho-build:jar:4.0.1
+[DEBUG]    io.takari.maven:takari-smart-builder:jar:0.6.3:compile
+[DEBUG]    org.eclipse.tycho.extras:tycho-pomless:jar:4.0.1:compile
+[DEBUG]       io.takari.polyglot:polyglot-common:jar:0.4.10:compile
+[DEBUG]       commons-io:commons-io:jar:2.13.0:compile (version managed from default)
+[DEBUG]       org.eclipse.tycho:tycho-metadata-model:jar:4.0.1:compile
+[DEBUG]          de.pdark:decentxml:jar:1.4:compile (version managed from default)
+[DEBUG]          org.codehaus.plexus:plexus-utils:jar:3.5.1:compile (version managed from default)
+[DEBUG]          biz.aQute.bnd:biz.aQute.repository:jar:6.4.0:compile
+[DEBUG]          org.osgi:org.osgi.resource:jar:1.0.1:compile
+[DEBUG]          commons-codec:commons-codec:jar:1.16.0:compile
+[DEBUG]    org.eclipse.tycho:tycho-buildtimestamp-jgit:jar:4.0.1:compile
+[DEBUG]       org.eclipse.jgit:org.eclipse.jgit:jar:6.6.0.202305301015-r:compile
+[DEBUG]          com.googlecode.javaewah:JavaEWAH:jar:1.2.3:compile
+[DEBUG]    org.eclipse.tycho:tycho-spi:jar:4.0.1:compile
+[DEBUG]       org.eclipse.tycho:tycho-api:jar:4.0.1:compile
+[DEBUG]    org.eclipse.platform:org.eclipse.equinox.p2.core:jar:2.9.200:compile
+[DEBUG]       org.bouncycastle:bcpg-jdk18on:jar:1.76:compile
+[DEBUG]       org.eclipse.platform:org.eclipse.equinox.common:jar:3.18.100:compile
+[DEBUG]       org.eclipse.platform:org.eclipse.equinox.registry:jar:3.11.300:compile
+[DEBUG]       org.eclipse.platform:org.eclipse.core.runtime:jar:3.27.0:compile (version managed from default)
+[DEBUG]          org.eclipse.platform:org.eclipse.core.contenttype:jar:3.9.0:compile
+[DEBUG]    org.eclipse.platform:org.eclipse.osgi:jar:3.18.400:compile
+[DEBUG]    org.eclipse.platform:org.eclipse.equinox.p2.publisher:jar:1.8.0:compile
+[DEBUG]       org.eclipse.platform:org.eclipse.equinox.p2.artifact.repository:jar:1.5.0:compile
+[DEBUG]    org.eclipse.platform:org.eclipse.equinox.p2.director:jar:2.6.0:compile
+[DEBUG]       org.eclipse.platform:org.eclipse.core.jobs:jar:3.14.0:compile
+[DEBUG]       org.ow2.sat4j:org.ow2.sat4j.core:jar:2.3.6:compile
+[DEBUG]       org.ow2.sat4j:org.ow2.sat4j.pb:jar:2.3.6:compile
+[DEBUG]       org.eclipse.platform:org.eclipse.equinox.simpleconfigurator:jar:1.4.200:compile
+[DEBUG]    org.eclipse.platform:org.eclipse.equinox.p2.engine:jar:2.8.0:compile
+[DEBUG]       org.eclipse.platform:org.eclipse.equinox.preferences:jar:3.10.200:compile
+[DEBUG]       org.osgi:org.osgi.service.prefs:jar:1.1.2:compile
+[DEBUG]    org.eclipse.platform:org.eclipse.equinox.p2.metadata:jar:2.7.0:compile
+[DEBUG]    org.eclipse.platform:org.eclipse.equinox.p2.repository:jar:2.7.0:compile
+[DEBUG]       org.bouncycastle:bcprov-jdk18on:jar:1.73:compile
+[DEBUG]       org.eclipse.platform:org.eclipse.equinox.security:jar:1.3.1000:compile
+[DEBUG]    org.eclipse.platform:org.eclipse.osgi.compatibility.state:jar:1.2.800:compile
+[DEBUG]    org.eclipse.platform:org.eclipse.equinox.p2.publisher.eclipse:jar:1.5.0:compile
+[DEBUG]       org.eclipse.platform:org.eclipse.equinox.app:jar:1.6.200:compile
+[DEBUG]       org.eclipse.platform:org.eclipse.equinox.frameworkadmin:jar:2.2.100:compile
+[DEBUG]       org.eclipse.platform:org.eclipse.equinox.frameworkadmin.equinox:jar:1.2.300:compile
+[DEBUG]       org.eclipse.platform:org.eclipse.equinox.simpleconfigurator.manipulator:jar:2.2.100:compile (version managed from default)
+[DEBUG]    org.eclipse.platform:org.eclipse.equinox.p2.metadata.repository:jar:1.5.0:compile
+[DEBUG]       org.tukaani:xz:jar:1.9:compile
+[DEBUG]    org.eclipse.tycho:p2-maven-plugin:jar:4.0.1:compile
+[DEBUG]       org.eclipse.platform:org.eclipse.equinox.p2.updatesite:jar:1.3.0:compile
+[DEBUG]       org.eclipse.tycho:sisu-osgi-api:jar:4.0.1:compile
+[DEBUG]       org.eclipse.tycho:sisu-osgi-connect:jar:4.0.1:compile
+[DEBUG]          org.codehaus.plexus:plexus-component-annotations:jar:2.1.1:compile (version managed from default)
+[DEBUG]       org.eclipse.platform:org.eclipse.equinox.p2.jarprocessor:jar:1.3.0:compile
+[DEBUG]       org.eclipse.platform:org.eclipse.equinox.p2.touchpoint.natives:jar:1.5.0:compile
+[DEBUG]       org.eclipse.platform:org.eclipse.equinox.p2.touchpoint.eclipse:jar:2.4.0:compile
+[DEBUG]       org.eclipse.platform:org.eclipse.equinox.p2.garbagecollector:jar:1.3.0:compile
+[DEBUG]       org.eclipse.platform:org.eclipse.equinox.p2.director.app:jar:1.3.0:compile
+[DEBUG]       org.eclipse.platform:org.eclipse.equinox.p2.repository.tools:jar:2.4.0:compile
+[DEBUG]       org.eclipse.platform:org.eclipse.equinox.concurrent:jar:1.2.100:compile
+[DEBUG]       org.osgi:org.osgi.service.component:jar:1.5.1:compile
+[DEBUG]          org.osgi:org.osgi.namespace.extender:jar:1.0.1:compile
+[DEBUG]       org.bouncycastle:bcpg-jdk15on:jar:1.70:compile
+[DEBUG]       org.bouncycastle:bcprov-jdk15on:jar:1.70:compile
+[DEBUG]       commons-net:commons-net:jar:3.9.0:compile (version managed from default)
+[DEBUG]    biz.aQute.bnd:biz.aQute.bndlib:jar:6.4.0:compile (exclusions managed from default)
+[DEBUG]       biz.aQute.bnd:biz.aQute.bnd.util:jar:6.4.0:compile
+[DEBUG]       org.slf4j:slf4j-api:jar:1.7.25:compile
+[DEBUG]    org.osgi:org.osgi.service.repository:jar:1.1.0:compile
+[DEBUG]    org.osgi:org.osgi.util.promise:jar:1.3.0:compile
+[DEBUG]       org.osgi:osgi.annotation:jar:8.1.0:compile
+[DEBUG]       org.osgi:org.osgi.util.function:jar:1.1.0:compile
+[DEBUG] Populating class realm coreExtension>org.eclipse.tycho:tycho-build:${tycho.version}
+[DEBUG]   Included org.eclipse.tycho:tycho-build located at C:\Users\aschi\.m2\repository\org\eclipse\tycho\tycho-build\4.0.1\tycho-build-4.0.1.jar
+[DEBUG]   Included io.takari.maven:takari-smart-builder located at C:\Users\aschi\.m2\repository\io\takari\maven\takari-smart-builder\0.6.3\takari-smart-builder-0.6.3.jar
+[DEBUG]   Included org.eclipse.tycho.extras:tycho-pomless located at C:\Users\aschi\.m2\repository\org\eclipse\tycho\extras\tycho-pomless\4.0.1\tycho-pomless-4.0.1.jar
+[DEBUG]   Included io.takari.polyglot:polyglot-common located at C:\Users\aschi\.m2\repository\io\takari\polyglot\polyglot-common\0.4.10\polyglot-common-0.4.10.jar
+[DEBUG]   Included commons-io:commons-io located at C:\Users\aschi\.m2\repository\commons-io\commons-io\2.13.0\commons-io-2.13.0.jar
+[DEBUG]   Included org.eclipse.tycho:tycho-metadata-model located at C:\Users\aschi\.m2\repository\org\eclipse\tycho\tycho-metadata-model\4.0.1\tycho-metadata-model-4.0.1.jar
+[DEBUG]   Included de.pdark:decentxml located at C:\Users\aschi\.m2\repository\de\pdark\decentxml\1.4\decentxml-1.4.jar
+[DEBUG]   Included org.codehaus.plexus:plexus-utils located at C:\Users\aschi\.m2\repository\org\codehaus\plexus\plexus-utils\3.5.1\plexus-utils-3.5.1.jar
+[DEBUG]   Included biz.aQute.bnd:biz.aQute.repository located at C:\Users\aschi\.m2\repository\biz\aQute\bnd\biz.aQute.repository\6.4.0\biz.aQute.repository-6.4.0.jar
+[DEBUG]   Included org.osgi:org.osgi.resource located at C:\Users\aschi\.m2\repository\org\osgi\org.osgi.resource\1.0.1\org.osgi.resource-1.0.1.jar
+[DEBUG]   Included commons-codec:commons-codec located at C:\Users\aschi\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar
+[DEBUG]   Included org.eclipse.tycho:tycho-buildtimestamp-jgit located at C:\Users\aschi\.m2\repository\org\eclipse\tycho\tycho-buildtimestamp-jgit\4.0.1\tycho-buildtimestamp-jgit-4.0.1.jar
+[DEBUG]   Included org.eclipse.jgit:org.eclipse.jgit located at C:\Users\aschi\.m2\repository\org\eclipse\jgit\org.eclipse.jgit\6.6.0.202305301015-r\org.eclipse.jgit-6.6.0.202305301015-r.jar
+[DEBUG]   Included com.googlecode.javaewah:JavaEWAH located at C:\Users\aschi\.m2\repository\com\googlecode\javaewah\JavaEWAH\1.2.3\JavaEWAH-1.2.3.jar
+[DEBUG]   Included org.eclipse.tycho:tycho-spi located at C:\Users\aschi\.m2\repository\org\eclipse\tycho\tycho-spi\4.0.1\tycho-spi-4.0.1.jar
+[DEBUG]   Included org.eclipse.tycho:tycho-api located at C:\Users\aschi\.m2\repository\org\eclipse\tycho\tycho-api\4.0.1\tycho-api-4.0.1.jar
+[DEBUG]   Included org.eclipse.platform:org.eclipse.equinox.p2.core located at C:\Users\aschi\.m2\repository\org\eclipse\platform\org.eclipse.equinox.p2.core\2.9.200\org.eclipse.equinox.p2.core-2.9.200.jar
+[DEBUG]   Included org.bouncycastle:bcpg-jdk18on located at C:\Users\aschi\.m2\repository\org\bouncycastle\bcpg-jdk18on\1.76\bcpg-jdk18on-1.76.jar
+[DEBUG]   Included org.eclipse.platform:org.eclipse.equinox.common located at C:\Users\aschi\.m2\repository\org\eclipse\platform\org.eclipse.equinox.common\3.18.100\org.eclipse.equinox.common-3.18.100.jar
+[DEBUG]   Included org.eclipse.platform:org.eclipse.equinox.registry located at C:\Users\aschi\.m2\repository\org\eclipse\platform\org.eclipse.equinox.registry\3.11.300\org.eclipse.equinox.registry-3.11.300.jar
+[DEBUG]   Included org.eclipse.platform:org.eclipse.core.runtime located at C:\Users\aschi\.m2\repository\org\eclipse\platform\org.eclipse.core.runtime\3.27.0\org.eclipse.core.runtime-3.27.0.jar
+[DEBUG]   Included org.eclipse.platform:org.eclipse.core.contenttype located at C:\Users\aschi\.m2\repository\org\eclipse\platform\org.eclipse.core.contenttype\3.9.0\org.eclipse.core.contenttype-3.9.0.jar
+[DEBUG]   Included org.eclipse.platform:org.eclipse.osgi located at C:\Users\aschi\.m2\repository\org\eclipse\platform\org.eclipse.osgi\3.18.400\org.eclipse.osgi-3.18.400.jar
+[DEBUG]   Included org.eclipse.platform:org.eclipse.equinox.p2.publisher located at C:\Users\aschi\.m2\repository\org\eclipse\platform\org.eclipse.equinox.p2.publisher\1.8.0\org.eclipse.equinox.p2.publisher-1.8.0.jar
+[DEBUG]   Included org.eclipse.platform:org.eclipse.equinox.p2.artifact.repository located at C:\Users\aschi\.m2\repository\org\eclipse\platform\org.eclipse.equinox.p2.artifact.repository\1.5.0\org.eclipse.equinox.p2.artifact.repository-1.5.0.jar
+[DEBUG]   Included org.eclipse.platform:org.eclipse.equinox.p2.director located at C:\Users\aschi\.m2\repository\org\eclipse\platform\org.eclipse.equinox.p2.director\2.6.0\org.eclipse.equinox.p2.director-2.6.0.jar
+[DEBUG]   Included org.eclipse.platform:org.eclipse.core.jobs located at C:\Users\aschi\.m2\repository\org\eclipse\platform\org.eclipse.core.jobs\3.14.0\org.eclipse.core.jobs-3.14.0.jar
+[DEBUG]   Included org.ow2.sat4j:org.ow2.sat4j.core located at C:\Users\aschi\.m2\repository\org\ow2\sat4j\org.ow2.sat4j.core\2.3.6\org.ow2.sat4j.core-2.3.6.jar
+[DEBUG]   Included org.ow2.sat4j:org.ow2.sat4j.pb located at C:\Users\aschi\.m2\repository\org\ow2\sat4j\org.ow2.sat4j.pb\2.3.6\org.ow2.sat4j.pb-2.3.6.jar
+[DEBUG]   Included org.eclipse.platform:org.eclipse.equinox.simpleconfigurator located at C:\Users\aschi\.m2\repository\org\eclipse\platform\org.eclipse.equinox.simpleconfigurator\1.4.200\org.eclipse.equinox.simpleconfigurator-1.4.200.jar
+[DEBUG]   Included org.eclipse.platform:org.eclipse.equinox.p2.engine located at C:\Users\aschi\.m2\repository\org\eclipse\platform\org.eclipse.equinox.p2.engine\2.8.0\org.eclipse.equinox.p2.engine-2.8.0.jar
+[DEBUG]   Included org.eclipse.platform:org.eclipse.equinox.preferences located at C:\Users\aschi\.m2\repository\org\eclipse\platform\org.eclipse.equinox.preferences\3.10.200\org.eclipse.equinox.preferences-3.10.200.jar
+[DEBUG]   Included org.osgi:org.osgi.service.prefs located at C:\Users\aschi\.m2\repository\org\osgi\org.osgi.service.prefs\1.1.2\org.osgi.service.prefs-1.1.2.jar
+[DEBUG]   Included org.eclipse.platform:org.eclipse.equinox.p2.metadata located at C:\Users\aschi\.m2\repository\org\eclipse\platform\org.eclipse.equinox.p2.metadata\2.7.0\org.eclipse.equinox.p2.metadata-2.7.0.jar
+[DEBUG]   Included org.eclipse.platform:org.eclipse.equinox.p2.repository located at C:\Users\aschi\.m2\repository\org\eclipse\platform\org.eclipse.equinox.p2.repository\2.7.0\org.eclipse.equinox.p2.repository-2.7.0.jar
+[DEBUG]   Included org.bouncycastle:bcprov-jdk18on located at C:\Users\aschi\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.73\bcprov-jdk18on-1.73.jar
+[DEBUG]   Included org.eclipse.platform:org.eclipse.equinox.security located at C:\Users\aschi\.m2\repository\org\eclipse\platform\org.eclipse.equinox.security\1.3.1000\org.eclipse.equinox.security-1.3.1000.jar
+[DEBUG]   Included org.eclipse.platform:org.eclipse.osgi.compatibility.state located at C:\Users\aschi\.m2\repository\org\eclipse\platform\org.eclipse.osgi.compatibility.state\1.2.800\org.eclipse.osgi.compatibility.state-1.2.800.jar
+[DEBUG]   Included org.eclipse.platform:org.eclipse.equinox.p2.publisher.eclipse located at C:\Users\aschi\.m2\repository\org\eclipse\platform\org.eclipse.equinox.p2.publisher.eclipse\1.5.0\org.eclipse.equinox.p2.publisher.eclipse-1.5.0.jar
+[DEBUG]   Included org.eclipse.platform:org.eclipse.equinox.app located at C:\Users\aschi\.m2\repository\org\eclipse\platform\org.eclipse.equinox.app\1.6.200\org.eclipse.equinox.app-1.6.200.jar
+[DEBUG]   Included org.eclipse.platform:org.eclipse.equinox.frameworkadmin located at C:\Users\aschi\.m2\repository\org\eclipse\platform\org.eclipse.equinox.frameworkadmin\2.2.100\org.eclipse.equinox.frameworkadmin-2.2.100.jar
+[DEBUG]   Included org.eclipse.platform:org.eclipse.equinox.frameworkadmin.equinox located at C:\Users\aschi\.m2\repository\org\eclipse\platform\org.eclipse.equinox.frameworkadmin.equinox\1.2.300\org.eclipse.equinox.frameworkadmin.equinox-1.2.300.jar
+[DEBUG]   Included org.eclipse.platform:org.eclipse.equinox.simpleconfigurator.manipulator located at C:\Users\aschi\.m2\repository\org\eclipse\platform\org.eclipse.equinox.simpleconfigurator.manipulator\2.2.100\org.eclipse.equinox.simpleconfigurator.manipulator-2.2.100.jar
+[DEBUG]   Included org.eclipse.platform:org.eclipse.equinox.p2.metadata.repository located at C:\Users\aschi\.m2\repository\org\eclipse\platform\org.eclipse.equinox.p2.metadata.repository\1.5.0\org.eclipse.equinox.p2.metadata.repository-1.5.0.jar
+[DEBUG]   Included org.tukaani:xz located at C:\Users\aschi\.m2\repository\org\tukaani\xz\1.9\xz-1.9.jar
+[DEBUG]   Included org.eclipse.tycho:p2-maven-plugin located at C:\Users\aschi\.m2\repository\org\eclipse\tycho\p2-maven-plugin\4.0.1\p2-maven-plugin-4.0.1.jar
+[DEBUG]   Included org.eclipse.platform:org.eclipse.equinox.p2.updatesite located at C:\Users\aschi\.m2\repository\org\eclipse\platform\org.eclipse.equinox.p2.updatesite\1.3.0\org.eclipse.equinox.p2.updatesite-1.3.0.jar
+[DEBUG]   Included org.eclipse.tycho:sisu-osgi-api located at C:\Users\aschi\.m2\repository\org\eclipse\tycho\sisu-osgi-api\4.0.1\sisu-osgi-api-4.0.1.jar
+[DEBUG]   Included org.eclipse.tycho:sisu-osgi-connect located at C:\Users\aschi\.m2\repository\org\eclipse\tycho\sisu-osgi-connect\4.0.1\sisu-osgi-connect-4.0.1.jar
+[DEBUG]   Included org.codehaus.plexus:plexus-component-annotations located at C:\Users\aschi\.m2\repository\org\codehaus\plexus\plexus-component-annotations\2.1.1\plexus-component-annotations-2.1.1.jar
+[DEBUG]   Included org.eclipse.platform:org.eclipse.equinox.p2.jarprocessor located at C:\Users\aschi\.m2\repository\org\eclipse\platform\org.eclipse.equinox.p2.jarprocessor\1.3.0\org.eclipse.equinox.p2.jarprocessor-1.3.0.jar
+[DEBUG]   Included org.eclipse.platform:org.eclipse.equinox.p2.touchpoint.natives located at C:\Users\aschi\.m2\repository\org\eclipse\platform\org.eclipse.equinox.p2.touchpoint.natives\1.5.0\org.eclipse.equinox.p2.touchpoint.natives-1.5.0.jar
+[DEBUG]   Included org.eclipse.platform:org.eclipse.equinox.p2.touchpoint.eclipse located at C:\Users\aschi\.m2\repository\org\eclipse\platform\org.eclipse.equinox.p2.touchpoint.eclipse\2.4.0\org.eclipse.equinox.p2.touchpoint.eclipse-2.4.0.jar
+[DEBUG]   Included org.eclipse.platform:org.eclipse.equinox.p2.garbagecollector located at C:\Users\aschi\.m2\repository\org\eclipse\platform\org.eclipse.equinox.p2.garbagecollector\1.3.0\org.eclipse.equinox.p2.garbagecollector-1.3.0.jar
+[DEBUG]   Included org.eclipse.platform:org.eclipse.equinox.p2.director.app located at C:\Users\aschi\.m2\repository\org\eclipse\platform\org.eclipse.equinox.p2.director.app\1.3.0\org.eclipse.equinox.p2.director.app-1.3.0.jar
+[DEBUG]   Included org.eclipse.platform:org.eclipse.equinox.p2.repository.tools located at C:\Users\aschi\.m2\repository\org\eclipse\platform\org.eclipse.equinox.p2.repository.tools\2.4.0\org.eclipse.equinox.p2.repository.tools-2.4.0.jar
+[DEBUG]   Included org.eclipse.platform:org.eclipse.equinox.concurrent located at C:\Users\aschi\.m2\repository\org\eclipse\platform\org.eclipse.equinox.concurrent\1.2.100\org.eclipse.equinox.concurrent-1.2.100.jar
+[DEBUG]   Included org.osgi:org.osgi.service.component located at C:\Users\aschi\.m2\repository\org\osgi\org.osgi.service.component\1.5.1\org.osgi.service.component-1.5.1.jar
+[DEBUG]   Included org.osgi:org.osgi.namespace.extender located at C:\Users\aschi\.m2\repository\org\osgi\org.osgi.namespace.extender\1.0.1\org.osgi.namespace.extender-1.0.1.jar
+[DEBUG]   Included org.bouncycastle:bcpg-jdk15on located at C:\Users\aschi\.m2\repository\org\bouncycastle\bcpg-jdk15on\1.70\bcpg-jdk15on-1.70.jar
+[DEBUG]   Included org.bouncycastle:bcprov-jdk15on located at C:\Users\aschi\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.70\bcprov-jdk15on-1.70.jar
+[DEBUG]   Included commons-net:commons-net located at C:\Users\aschi\.m2\repository\commons-net\commons-net\3.9.0\commons-net-3.9.0.jar
+[DEBUG]   Included biz.aQute.bnd:biz.aQute.bndlib located at C:\Users\aschi\.m2\repository\biz\aQute\bnd\biz.aQute.bndlib\6.4.0\biz.aQute.bndlib-6.4.0.jar
+[DEBUG]   Included biz.aQute.bnd:biz.aQute.bnd.util located at C:\Users\aschi\.m2\repository\biz\aQute\bnd\biz.aQute.bnd.util\6.4.0\biz.aQute.bnd.util-6.4.0.jar
+[DEBUG]   Included org.osgi:org.osgi.service.repository located at C:\Users\aschi\.m2\repository\org\osgi\org.osgi.service.repository\1.1.0\org.osgi.service.repository-1.1.0.jar
+[DEBUG]   Included org.osgi:org.osgi.util.promise located at C:\Users\aschi\.m2\repository\org\osgi\org.osgi.util.promise\1.3.0\org.osgi.util.promise-1.3.0.jar
+[DEBUG]   Included org.osgi:osgi.annotation located at C:\Users\aschi\.m2\repository\org\osgi\osgi.annotation\8.1.0\osgi.annotation-8.1.0.jar
+[DEBUG]   Included org.osgi:org.osgi.util.function located at C:\Users\aschi\.m2\repository\org\osgi\org.osgi.util.function\1.1.0\org.osgi.util.function-1.1.0.jar
+[DEBUG] Shutting down adapter factory; available factories [file-lock, rwlock-local, semaphore-local, noop]; available name mappers [discriminating, file-gav, file-hgav, file-static, gav, static]
+[DEBUG] Shutting down 'file-lock' factory
+[DEBUG] Shutting down 'rwlock-local' factory
+[DEBUG] Shutting down 'semaphore-local' factory
+[DEBUG] Shutting down 'noop' factory
+[DEBUG] Populating class realm maven.ext
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: javax.annotation.* < maven.ext
+[DEBUG]   Imported: javax.annotation.security.* < maven.ext
+[DEBUG]   Imported: javax.inject.* < maven.ext
+[DEBUG]   Imported: org.apache.maven.* < maven.ext
+[DEBUG]   Imported: org.apache.maven.artifact < maven.ext
+[DEBUG]   Imported: org.apache.maven.classrealm < maven.ext
+[DEBUG]   Imported: org.apache.maven.cli < maven.ext
+[DEBUG]   Imported: org.apache.maven.configuration < maven.ext
+[DEBUG]   Imported: org.apache.maven.exception < maven.ext
+[DEBUG]   Imported: org.apache.maven.execution < maven.ext
+[DEBUG]   Imported: org.apache.maven.execution.scope < maven.ext
+[DEBUG]   Imported: org.apache.maven.graph < maven.ext
+[DEBUG]   Imported: org.apache.maven.lifecycle < maven.ext
+[DEBUG]   Imported: org.apache.maven.model < maven.ext
+[DEBUG]   Imported: org.apache.maven.monitor < maven.ext
+[DEBUG]   Imported: org.apache.maven.plugin < maven.ext
+[DEBUG]   Imported: org.apache.maven.profiles < maven.ext
+[DEBUG]   Imported: org.apache.maven.project < maven.ext
+[DEBUG]   Imported: org.apache.maven.reporting < maven.ext
+[DEBUG]   Imported: org.apache.maven.repository < maven.ext
+[DEBUG]   Imported: org.apache.maven.rtinfo < maven.ext
+[DEBUG]   Imported: org.apache.maven.settings < maven.ext
+[DEBUG]   Imported: org.apache.maven.toolchain < maven.ext
+[DEBUG]   Imported: org.apache.maven.usability < maven.ext
+[DEBUG]   Imported: org.apache.maven.wagon.* < maven.ext
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < maven.ext
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < maven.ext
+[DEBUG]   Imported: org.apache.maven.wagon.events < maven.ext
+[DEBUG]   Imported: org.apache.maven.wagon.observers < maven.ext
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < maven.ext
+[DEBUG]   Imported: org.apache.maven.wagon.repository < maven.ext
+[DEBUG]   Imported: org.apache.maven.wagon.resource < maven.ext
+[DEBUG]   Imported: org.codehaus.classworlds < maven.ext
+[DEBUG]   Imported: org.codehaus.plexus.* < maven.ext
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < maven.ext
+[DEBUG]   Imported: org.codehaus.plexus.component < maven.ext
+[DEBUG]   Imported: org.codehaus.plexus.configuration < maven.ext
+[DEBUG]   Imported: org.codehaus.plexus.container < maven.ext
+[DEBUG]   Imported: org.codehaus.plexus.context < maven.ext
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < maven.ext
+[DEBUG]   Imported: org.codehaus.plexus.logging < maven.ext
+[DEBUG]   Imported: org.codehaus.plexus.personality < maven.ext
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < maven.ext
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < maven.ext
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < maven.ext
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < maven.ext
+[DEBUG]   Imported: org.eclipse.aether.* < maven.ext
+[DEBUG]   Imported: org.eclipse.aether.artifact < maven.ext
+[DEBUG]   Imported: org.eclipse.aether.collection < maven.ext
+[DEBUG]   Imported: org.eclipse.aether.deployment < maven.ext
+[DEBUG]   Imported: org.eclipse.aether.graph < maven.ext
+[DEBUG]   Imported: org.eclipse.aether.impl < maven.ext
+[DEBUG]   Imported: org.eclipse.aether.installation < maven.ext
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < maven.ext
+[DEBUG]   Imported: org.eclipse.aether.metadata < maven.ext
+[DEBUG]   Imported: org.eclipse.aether.repository < maven.ext
+[DEBUG]   Imported: org.eclipse.aether.resolution < maven.ext
+[DEBUG]   Imported: org.eclipse.aether.spi < maven.ext
+[DEBUG]   Imported: org.eclipse.aether.transfer < maven.ext
+[DEBUG]   Imported: org.eclipse.aether.util < maven.ext
+[DEBUG]   Imported: org.eclipse.aether.version < maven.ext
+[DEBUG]   Imported: org.fusesource.jansi.* < maven.ext
+[DEBUG]   Imported: org.slf4j.* < maven.ext
+[DEBUG]   Imported: org.slf4j.event.* < maven.ext
+[DEBUG]   Imported: org.slf4j.helpers.* < maven.ext
+[DEBUG]   Imported: org.slf4j.spi.* < maven.ext
+[DEBUG] Populating class realm maven.api
+[DEBUG] Created adapter factory; available factories [file-lock, rwlock-local, semaphore-local, noop]; available name mappers [discriminating, file-gav, file-hgav, file-static, gav, static]
+[DEBUG] Init instance coreExtension>org.eclipse.tycho:tycho-build:${tycho.version} [ClassRealm[coreExtension>org.eclipse.tycho:tycho-build:${tycho.version}, parent: ClassRealm[plexus.core, parent: null]]]
+[INFO] Error stacktraces are turned on.
+[DEBUG] Message scheme: color
+[DEBUG] Message styles: debug info warning error success failure strong mojo project
+[DEBUG] Reading global settings from C:\Users\aschi\AppData\Local\Programs\WingetUI\choco-cli\lib\maven\apache-maven-3.9.4\conf\settings.xml
+[DEBUG] Reading user settings from D:\eclipseWorkspaces\pdeWorkspace\.mvn\settings.xml
+[DEBUG] Reading global toolchains from C:\Users\aschi\AppData\Local\Programs\WingetUI\choco-cli\lib\maven\apache-maven-3.9.4\conf\toolchains.xml
+[DEBUG] Reading user toolchains from D:\eclipseWorkspaces\pdeWorkspace\.mvn\toolchains.xml
+[DEBUG] Skip folder D:\eclipseWorkspaces\pdeWorkspace because it does not match any common name [releng, tests, features, products, plugins, bundles, sites]
+[DEBUG] Using local repository at C:\Users\aschi\.m2\repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for C:\Users\aschi\.m2\repository
+[INFO] Scanning for projects...
+[ERROR] Internal error: java.nio.file.InvalidPathException: Illegal char <:> at index 3: jar:file:\C:\Users\aschi\AppData\Local\Programs\WingetUI\choco-cli\lib\maven\apache-maven-3.9.4\lib\maven-core-3.9.4.jar!\org\apache\maven\project -> [Help 1]
+org.apache.maven.InternalErrorException: Internal error: java.nio.file.InvalidPathException: Illegal char <:> at index 3: jar:file:\C:\Users\aschi\AppData\Local\Programs\WingetUI\choco-cli\lib\maven\apache-maven-3.9.4\lib\maven-core-3.9.4.jar!\org\apache\maven\project
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:109)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:568)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:283)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:226)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:407)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:348)
+Caused by: java.nio.file.InvalidPathException: Illegal char <:> at index 3: jar:file:\C:\Users\aschi\AppData\Local\Programs\WingetUI\choco-cli\lib\maven\apache-maven-3.9.4\lib\maven-core-3.9.4.jar!\org\apache\maven\project
+    at sun.nio.fs.WindowsPathParser.normalize (WindowsPathParser.java:182)
+    at sun.nio.fs.WindowsPathParser.parse (WindowsPathParser.java:153)
+    at sun.nio.fs.WindowsPathParser.parse (WindowsPathParser.java:77)
+    at sun.nio.fs.WindowsPath.parse (WindowsPath.java:92)
+    at sun.nio.fs.WindowsFileSystem.getPath (WindowsFileSystem.java:232)
+    at java.io.File.toPath (File.java:2387)
+    at org.eclipse.tycho.pomless.TychoRepositoryMapping.getPrimaryArtifact (TychoRepositoryMapping.java:130)
+    at org.eclipse.tycho.pomless.AbstractTychoMapping.locatePom (AbstractTychoMapping.java:91)
+    at org.sonatype.maven.polyglot.PolyglotModelManager.findPom (PolyglotModelManager.java:85)
+    at org.sonatype.maven.polyglot.TeslaModelProcessor.locatePom (TeslaModelProcessor.java:67)
+    at org.sonatype.maven.polyglot.TeslaModelProcessor.getPomXmlFile (TeslaModelProcessor.java:170)
+    at org.sonatype.maven.polyglot.TeslaModelProcessor.getPomXmlFile (TeslaModelProcessor.java:155)
+    at org.sonatype.maven.polyglot.TeslaModelProcessor.read (TeslaModelProcessor.java:110)
+    at org.eclipse.tycho.pomless.TychoTeslaModelProcessor.read (TychoTeslaModelProcessor.java:35)
+    at org.apache.maven.model.building.DefaultModelBuilder.readModel (DefaultModelBuilder.java:552)
+    at org.apache.maven.model.building.DefaultModelBuilder.build (DefaultModelBuilder.java:257)
+    at org.apache.maven.model.building.DefaultModelBuilder.build (DefaultModelBuilder.java:243)
+    at org.apache.maven.project.DefaultProjectBuilder.build (DefaultProjectBuilder.java:176)
+    at org.apache.maven.project.DefaultProjectBuilder.build (DefaultProjectBuilder.java:139)
+    at org.sonatype.maven.polyglot.TeslaProjectBuilder.build (TeslaProjectBuilder.java:28)
+    at org.apache.maven.graph.DefaultGraphBuilder.getProjectsForMavenReactor (DefaultGraphBuilder.java:331)
+    at org.apache.maven.graph.DefaultGraphBuilder.build (DefaultGraphBuilder.java:76)
+    at org.eclipse.tycho.build.TychoGraphBuilder.build (TychoGraphBuilder.java:92)
+    at org.apache.maven.DefaultMaven.buildGraph (DefaultMaven.java:448)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:197)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:568)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:283)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:226)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:407)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:348)
+[ERROR] 
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/InternalErrorException
+[DEBUG] Shutting down adapter factory; available factories [file-lock, rwlock-local, semaphore-local, noop]; available name mappers [discriminating, file-gav, file-hgav, file-static, gav, static]
+[DEBUG] Shutting down 'file-lock' factory
+[DEBUG] Shutting down 'rwlock-local' factory
+[DEBUG] Shutting down 'semaphore-local' factory
+[DEBUG] Shutting down 'noop' factory
